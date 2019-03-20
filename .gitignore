@@ -1,0 +1,14 @@
+# env related
+*.DS_Store
+.idea
+.vscode
+*.sublime-*
+
+# test related
+coverage
+.nyc*
+
+# package managers
+node_modules
+npm-debug.log
+yarn-error.log

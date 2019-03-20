@@ -1,0 +1,24 @@
+{
+  "name": "git-source-branch",
+  "version": "0.1.0",
+  "description": "This package provides an API to get the source/parent branch from the current git branch",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "parent",
+    "source",
+    "branch",
+    "git"
+  ],
+  "author": "Roberto Jesus <https://github.com/Roberto14>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.15.3",
+    "mocha": "^6.0.2"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}

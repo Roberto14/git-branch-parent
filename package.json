@@ -20,5 +20,8 @@
   },
   "engines": {
     "node": ">=8"
+  },
+  "dependencies": {
+    "findup-sync": "^3.0.0"
   }
 }

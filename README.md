@@ -1,6 +1,6 @@
-# git-branch
+# git-branch-parent
 
-> Get the source (or parent) branch of the current branch from the git repository.
+> Get the parent (or source) branch of current branch from the git repository.
 
 
 ## Install
@@ -8,13 +8,13 @@
 Install with [npm](https://www.npmjs.com/):
 
 ```sh
-$ npm install --save git-source-branch
+$ npm install --save git-branch-parent
 ```
 
 ## Usage
 
 ```js
-const sourceBranch = require('git-source-branch');
+const parent = require('git-branch-parent');
 ```
 
 Optionally pass the cwd (current working directory) as the first argument.
@@ -22,15 +22,15 @@ Optionally pass the cwd (current working directory) as the first argument.
 **Promise**
 
 ```js
-sourceBranch('some/path')
-  .then(name => console.log('Source Branch:', name))
+parent('some/path')
+  .then(name => console.log('Parent Branch:', name))
   .catch(console.error)
 ```
 
 **Sync**
 
 ```js
-console.log('Source Branch:', sourceBranch.sync())
+console.log('Parent Branch:', parent.sync())
 ```
 
 ## Contributing

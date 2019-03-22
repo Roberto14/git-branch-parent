@@ -1,6 +1,6 @@
 {
   "name": "git-branch-parent",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "This package provides an API to find the parent branch from the current git branch",
   "main": "index.js",
   "scripts": {

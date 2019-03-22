@@ -4,7 +4,7 @@ const child_process = require('child_process');
 const exec = util.promisify(child_process.exec);
 
 const commands = [
-    'git show-branch -a', //  Get git branch
+    'git show-branch -a 2>/dev/null', //  Get git branch
     'grep \'\*\'',
     'grep -v "$(git rev-parse --abbrev-ref HEAD)"',
     'head -n1',
